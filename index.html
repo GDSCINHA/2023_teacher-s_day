@@ -17,7 +17,7 @@ title: 2023 스승의 날 감사한마디
         <div class="container">
             <div class="section-header">
                 <h1 role="section-heading">{{site.workshop.name}} Workshop Guestbook</h1>
-                <h3><a href="{{site.workshop.github}}">Sign the guestbook</a></h3>
+                <h3><a href="https://forms.gle/XATFhYfbGavD2nsW9">감사 한마디 작성하러 가기🕊</a></h3>
             </div>
 
             <div class="guestbook-content">
@@ -30,25 +30,6 @@ title: 2023 스승의 날 감사한마디
                     <h2>{{guest.name}}</h2>
                     <h4>{{guest.message}}</h4>
                     <hr/>
-                    <div class="guestbook-social">
-
-                      {% if guest.twitter %}
-                        <a href="https://twitter.com/{{guest.twitter}}" alt="Twitter"><i class="fab fa-twitter"></i></a>
-                      {% endif %}
-                        
-                      {% if guest.facebook %}
-                        <a href="https://facebook.com/{{guest.facebook}}" alt="Facebook"><i class="fab fa-facebook"></i></a>
-                      {% endif %}
-
-                      {% if guest.github %}
-                        <a href="https://github.com/{{guest.github}}" alt="GitHub"><i class="fab fa-github"></i></a>
-                      {% endif %}
-
-                      {% if guest.web %}
-                        <a href="http://{{guest.web}}" alt="Website"><i class="fas fa-globe"></i></a>
-                      {% endif %}
-
-                    </div>
                 </div>
               {% endfor %}
           </div>
