@@ -9,6 +9,8 @@ before_script:
 script:
   - yamllint _guestbook/*
   - ruby -Itest tests/tests.rb
+  - yamllint _guestbook/sbpark/*
+  - ruby -Itest tests/sbPark.rb
   - bundle exec jekyll build
 notifications:
     webhooks: https://www.travisbuddy.com/

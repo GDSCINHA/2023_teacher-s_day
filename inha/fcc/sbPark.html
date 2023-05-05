@@ -1,0 +1,58 @@
+---
+title: 2023 스승의 날 감사한마디
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+    <section id="guestbook">
+        <div class="container">
+            <div class="section-header">
+                <h1 role="section-heading">{{site.workshop.name}} 2023 미래융합대학 스승의날</h1>
+                <h3>박승보 교수님, 감사합니다 💌</a></h3>
+            </div>
+
+            <div class="guestbook-content">
+              {% for guest in site.guestbook %}
+                <div class="guestbook-item">
+                    <div class="guestbook-profile">
+                        <img src="{{guest.image}}" alt="{{guest.name}}"/>
+                        <span class="emoji">{{guest.emoji}}</span>
+                    </div>
+                    <h2>{{guest.name}}</h2>
+                    <h4>{{guest.message}}</h4>
+                    <hr/>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+    </section>
+
+
+    <section class="join" id="join-large">
+        <div class="container">
+            <div class="join-content">
+                <h3 role="section-heading">인하대학교 미래융합대학 학생이신가요?</h3>
+                <div class="logo_university">
+                    <img src="https://bims.inha.ac.kr/resource/img/main/login_logo.png" alt="">
+                    <h2> </h2>
+                </div>
+                <div class="link">
+                    <a href="https://forms.gle/XATFhYfbGavD2nsW9" class="button button-white">🕊감사 한마디 작성하러 가기!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
