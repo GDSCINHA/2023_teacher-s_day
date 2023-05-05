@@ -7,6 +7,19 @@ collections_dir: book
 collections:
   - guestbook
   - sbPark
+  - jhKim
+  - csNam
+  - syChoi
+  - goJung
+  - whLee
+  - jhChoi
+  - csSeo
+  - jjLee
+  - sgKim
+  - smJung
+  - kyKang
+  - khLee
+  - jtKang
 
 workshop:
   name: 
