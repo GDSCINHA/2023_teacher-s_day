@@ -4,7 +4,7 @@ require 'yaml'
 class TestFrontMatterValidation < Test::Unit::TestCase
 
     def test_frontmattervalidation
-        Dir['./_guestbook/_sbPark/*.yaml'].each do |path|
+        Dir['./book/_sbPark/*.yaml'].each do |path|
             data = YAML.load_file(path)
 
             keys = data.keys.map { |k| k.downcase }

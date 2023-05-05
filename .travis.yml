@@ -7,7 +7,7 @@ before_script:
   - pip install --user yamale
   - pip install --user git+https://github.com/PandelisZ/pyyaml.git@allow-emojis
 script:
-  - yamllint _guestbook/_sbpark/*
+  - yamllint book/_sbpark/*
   - ruby -Itest tests/sbPark.rb
   - bundle exec jekyll build
 notifications:
