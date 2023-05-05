@@ -4,9 +4,7 @@ exclude:
 
 collections:
   - guestbook
-  - book
-    collections:
-      - sbPark
+  - book.sbPark
 
 workshop:
   name: 
