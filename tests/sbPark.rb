@@ -4,7 +4,7 @@ require 'yaml'
 class TestFrontMatterValidation < Test::Unit::TestCase
 
     def test_frontmattervalidation
-        Dir['./_guestbook/sbPark/*.yaml'].each do |path|
+        Dir['./_guestbook/_sbPark/*.yaml'].each do |path|
             data = YAML.load_file(path)
 
             keys = data.keys.map { |k| k.downcase }
@@ -14,5 +14,4 @@ class TestFrontMatterValidation < Test::Unit::TestCase
             assert(lines[4..-1].include?("---\n"), "closing --- missing: #{path}")
         end
     end
-
 end
