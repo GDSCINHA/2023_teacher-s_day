@@ -2,9 +2,11 @@ exclude:
   - .github
   - vendor
 
+collections_dir: book
+
 collections:
   - guestbook
-  - book.sbPark
+  - sbPark
 
 workshop:
   name: 
