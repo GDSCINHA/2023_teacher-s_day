@@ -1,0 +1,89 @@
+- name: 박승보 교수님
+  department: 소프트웨어융합공학과
+  image: https://fccollege.inha.ac.kr/user/photo/1be8204473a51ab009464d78b85a277483ce361643b15ed89db4028d5e294133_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/sbPark
+
+- name: 남춘성 교수님
+  department: 소프트웨어융합공학과
+  image: https://fccollege.inha.ac.kr/user/photo/e8d7836d37b7628adfc23722c622aaa7846ed60101cc2eb360c48960698d0292_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/csNam
+
+- name: 김종훈 교수님
+  department: 소프트웨어융합공학과
+  image: https://fccollege.inha.ac.kr/user/photo/eaa67986143c1c408a2264633ccdf28e7836b7b45a054cbcada8e582cefd1bcd_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jhKim
+
+- name: 최성용 교수님
+  department: 소프트웨어융합공학과
+  image: https://fccollege.inha.ac.kr/user/photo/808b2dbb6d2899d53d6d9fa73cc8da999936b6f08e89fa981f69b55329e3f79a_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/syChoi
+
+- name: 김태간 교수님
+  department: 소프트웨어융합공학과
+  image: https://learn.inha.ac.kr/pluginfile.php/57544/user/icon/coursemosv2/f1?rev=6948808
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/tgKim
+
+- name: 정건옥 교수님
+  department: 메카트로닉스공학과
+  image: https://fccollege.inha.ac.kr/user/photo/808b2dbb6d2899d53d6d9fa73cc8da999936b6f08e89fa981f69b55329e3f79a_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/goJung
+
+- name: 이우형 교수님
+  department: 메카트로닉스공학과
+  image: https://fccollege.inha.ac.kr/user/photo/d6723866e6df47ed3c250f8b46c5ebdffb1bcc44cf20fc8cf3512b51a35dabe3_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/whLee
+
+- name: 최종호 교수님
+  department: 메카트로닉스공학과
+  image: https://fccollege.inha.ac.kr/user/photo/0ab7bc5180f436f8baa98f210568b4f2044669496074d0e914f25f79a7655894_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jhChoi
+
+- name: 서창수 교수님
+  department: 산업경영학과
+  image: https://fccollege.inha.ac.kr/user/photo/41170c786be4fd84d7ebc5dbebfad7c47566cf2c08a65927b651fc9a2436dea3_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/csSeo
+
+- name: 이재진 교수님
+  department: 산업경영학과
+  image: https://fccollege.inha.ac.kr/user/photo/62625bc55525a4d58bcd20c69705b9c815d798224a2ccc0c63846368cd047636_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jjLee
+
+- name: 김성건 교수님
+  department: 산업경영학과
+  image: https://fccollege.inha.ac.kr/user/photo/0999af837e32fc7513372150ca68d9b1a106f94a79f29a654f7fef7fac52d005_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/sgKim
+
+- name: 정승민 교수님
+  department: 산업경영학과
+  image: https://fccollege.inha.ac.kr/user/photo/28b65af8b83f4329597e71a4539b122974f5e733ddf941fd670b8d3b9ade4fd1_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/smJung
+
+- name: 이기환 교수님
+  department: 금융투자학과
+  image: https://fccollege.inha.ac.kr/user/photo/f134d28aaccc51e50a180c07600712d5032f127777185ba7f5224f106939f081_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/khLee
+
+- name: 강재택 교수님
+  department: 금융투자학과
+  image: https://fccollege.inha.ac.kr/user/photo/8257e5f5575b7b4ddf1af4ed8e49dd5c0a4bcf3cf535bd40e8206cdfeb87ed4b_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jtKang
+
+- name: 강경이 교수님
+  department: 금융투자학과
+  image: https://fccollege.inha.ac.kr/user/photo/08bf0717e04a88fdc4374520128816b2865f7861e37b3a209b830563a515477c_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/kyKang
+
+- name: Prof. David Corner
+  department: 프런티어학부대학
+  image: https://generaledu.inha.ac.kr/user/photo/e52fd45bc512418a17c6233c8697b846a8d161fbbbf27933097f2e95aea001d4_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/davidC
+
+- name: Prof. Steve Kontic
+  department: 프런티어학부대학
+  image: https://generaledu.inha.ac.kr/user/photo/803e4adb62a4613b480a81e77a005e2870d428f0792d7ad6c272ed31fc703064_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/steveK
+
+- name: Prof. Gregory Macneill
+  department: 프런티어학부대학
+  image: https://generaledu.inha.ac.kr/user/photo/5553d688bba7045a113fbb31466a8cc21602437e9776fbd45ce8b02b9680ea1a_prof.jpg
+  link: https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/gregoryM

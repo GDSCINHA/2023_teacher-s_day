@@ -1,3 +1,5 @@
+# baseurl: "2023_teacher-s_day"
+
 exclude:
   - .github
   - vendor

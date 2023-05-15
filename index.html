@@ -5,170 +5,39 @@ title: 2023 스승의 날 감사한마디
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/home.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <link rel="shortcut icon" href="images/logo_inha.png"/>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-abcdefghijklmnopqrstuvwxyz1234567890"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/logo_inha.png" />
     <title>{{ page.title }}</title>
 </head>
 
 <body>
-
     <section id="guestbook">
         <div class="container">
             <div class="section-header" style="text-align: center">
-                <h1 role="section-heading">{{site.workshop.name}} 2023 미래융합대학 스승의 날</h1>
-                <h3><img src="images/logo_inha.png" height="30" width="30" alt="logo_inha" style="vertical-align: middle">
+                <h1 role="section-heading">{{ site.workshop.name }} 2023 미래융합대학 스승의 날</h1>
+                <h3><img src="images/logo_inha.png" height="30" width="30" alt="logo_inha"
+                        style="vertical-align: middle">
                     <span>인하대학교 교수님들, 감사합니다 💌</span></a></h3>
             </div>
 
             <div class="guestbook-content">
+                {% for professor in site.data.professors %}
                 <div class="guestbook-item">
                     <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/1be8204473a51ab009464d78b85a277483ce361643b15ed89db4028d5e294133_prof.jpg" alt="박승보 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
+                        <img src="{{ professor.image }}" alt="{{ professor.name }}" width="200" height="200"
+                            style="margin-bottom: 30px;" />
                     </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/sbPark" class="button button-black" style="font-size: larger; font-weight: bold;">박승보 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">소프트웨어융합공학과</h4>
+                    <a href="{{ professor.link }}" class="button button-black"
+                        style="font-size: larger; font-weight: bold;">{{ professor.name }}</a>
+                    <h4 style="margin-top: 30px; font-weight: bold;">{{ professor.department }}</h4>
                 </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/e8d7836d37b7628adfc23722c622aaa7846ed60101cc2eb360c48960698d0292_prof.jpg" alt="남춘성 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/csNam" class="button button-black" style="font-size: larger; font-weight: bold;">남춘성 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">소프트웨어융합공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/eaa67986143c1c408a2264633ccdf28e7836b7b45a054cbcada8e582cefd1bcd_prof.jpg" alt="김종훈 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jhKim" class="button button-black" style="font-size: larger; font-weight: bold;">김종훈 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">소프트웨어융합공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/808b2dbb6d2899d53d6d9fa73cc8da999936b6f08e89fa981f69b55329e3f79a_prof.jpg" alt="최성용 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/syChoi" class="button button-black" style="font-size: larger; font-weight: bold;">최성용 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">소프트웨어융합공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://learn.inha.ac.kr/pluginfile.php/57544/user/icon/coursemosv2/f1?rev=6948808" alt="김태간 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/tgKim" class="button button-black" style="font-size: larger; font-weight: bold;">김태간 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">소프트웨어융합공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/b807652be26ce230065ce7fc26093f873c42c3433e8db732e2eb88b49c2d580f_prof.jpg" alt="정건옥 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/goJung" class="button button-black" style="font-size: larger; font-weight: bold;">정건옥 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">메카트로닉스공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/d6723866e6df47ed3c250f8b46c5ebdffb1bcc44cf20fc8cf3512b51a35dabe3_prof.jpg" alt="이우형 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/whLee" class="button button-black" style="font-size: larger; font-weight: bold;">이우형 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">메카트로닉스공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/0ab7bc5180f436f8baa98f210568b4f2044669496074d0e914f25f79a7655894_prof.jpg" alt="최종호 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jhChoi" class="button button-black" style="font-size: larger; font-weight: bold;">최종호 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">메카트로닉스공학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/41170c786be4fd84d7ebc5dbebfad7c47566cf2c08a65927b651fc9a2436dea3_prof.jpg" alt="서창수 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/csSeo" class="button button-black" style="font-size: larger; font-weight: bold;">서창수 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">산업경영학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/62625bc55525a4d58bcd20c69705b9c815d798224a2ccc0c63846368cd047636_prof.jpg" alt="이재진 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jjLee" class="button button-black" style="font-size: larger; font-weight: bold;">이재진 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">산업경영학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/0999af837e32fc7513372150ca68d9b1a106f94a79f29a654f7fef7fac52d005_prof.jpg" alt="김성건 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/sgKim" class="button button-black" style="font-size: larger; font-weight: bold;">김성건 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">산업경영학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/28b65af8b83f4329597e71a4539b122974f5e733ddf941fd670b8d3b9ade4fd1_prof.jpg" alt="정승민 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/smJung" class="button button-black" style="font-size: larger; font-weight: bold;">정승민 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">산업경영학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/f134d28aaccc51e50a180c07600712d5032f127777185ba7f5224f106939f081_prof.jpg" alt="이기환 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/khLee" class="button button-black" style="font-size: larger; font-weight: bold;">이기환 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">금융투자학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/8257e5f5575b7b4ddf1af4ed8e49dd5c0a4bcf3cf535bd40e8206cdfeb87ed4b_prof.jpg" alt="강재택 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/jtKang" class="button button-black" style="font-size: larger; font-weight: bold;">강재택 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">금융투자학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://fccollege.inha.ac.kr/user/photo/08bf0717e04a88fdc4374520128816b2865f7861e37b3a209b830563a515477c_prof.jpg" alt="강경이 교수님" width="200" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/kyKang" class="button button-black" style="font-size: larger; font-weight: bold;">강경이 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">금융투자학과</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://generaledu.inha.ac.kr/user/photo/e52fd45bc512418a17c6233c8697b846a8d161fbbbf27933097f2e95aea001d4_prof.jpg" alt="Prof. David Corner" width="300" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/davidC" class="button button-black" style="font-size: small; font-weight: bold;">David Corner 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">프런티어학부대학</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://generaledu.inha.ac.kr/user/photo/803e4adb62a4613b480a81e77a005e2870d428f0792d7ad6c272ed31fc703064_prof.jpg" alt="Prof. Steve Kontic" width="300" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/steveK" class="button button-black" style="font-size: small; font-weight: bold;">Steve Kontic 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">프런티어학부대학</h4>
-                </div>
-
-                <div class="guestbook-item">
-                    <div class="guestbook-profile">
-                        <img src="https://generaledu.inha.ac.kr/user/photo/5553d688bba7045a113fbb31466a8cc21602437e9776fbd45ce8b02b9680ea1a_prof.jpg" alt="Prof. Gregory Macneill" width="300" height="200" style="margin-bottom: 30px;"/>
-                    </div>
-                    <a href="https://gdscinha.github.io/2023_teacher-s_day/inha/fcc/gregoryM" class="button button-black" style="font-size: small; font-weight: bold;">Gregory Macneill 교수님</a>
-                    <h4 style="margin-top: 30px; font-weight: bold;">프런티어학부대학</h4>
-                </div>
-          </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
-
 
     <section class="join" id="join-large">
         <div class="container">
@@ -176,10 +45,9 @@ title: 2023 스승의 날 감사한마디
                 <div class="link">
                     <a href="https://forms.gle/XATFhYfbGavD2nsW9" class="button button-white">🕊2023 스승의 날 감사 한마디 작성하러 가기!</a>
                 </div>
-                <br>
-                <br>
-                <br>
-                <h5 role="section-heading">©2023. Inha University Future Convergence Student Council All rights reserved.<br>
+                <br><br><br>
+                <h5 role="section-heading">©2023. Inha University Future Convergence Student Council All rights
+                    reserved.<br>
                     This site is not associated with Inha University.<br><br>
                 </h5>
                 <h6>
@@ -188,12 +56,13 @@ title: 2023 스승의 날 감사한마디
                     21소융 Donghwi Cho<br>
                     21소융 Hameast Donggyun Ham
                 </h6>
-              
+                <br>
+                <h6>
+                    *contributor*<br>
+                    23소융 Jongyoung Lee<br>
+                </h6>
             </div>
         </div>
     </section>
-
-
 </body>
-
 </html>

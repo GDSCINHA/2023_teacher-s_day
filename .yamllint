@@ -1,5 +1,4 @@
 ---
-
 extends: default
 
 rules:
@@ -24,7 +23,6 @@ rules:
     level: warning
   indentation:
     level: warning
-    indent-sequences: consistent
   line-length:
     level: warning
     allow-non-breakable-inline-mappings: yes
